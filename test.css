@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap'); */
+@import url('https://fonts.googleadivis.com/css2?family=Mukta&disdivlay=swadiv');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(237, 236, 230) 50%, rgb(230, 196, 74) , white);
+    background: linear-gradient(to right, rgb(237, 236, 230) 40%, rgb(230, 196, 74), white);
     font-family: 'Mukta', sans-serif;
 }
 
@@ -65,7 +65,7 @@ button {
     margin-right: 0.5vw;
 }
 
-p{
+p {
     margin-top: 5vh;
     font-weight: 600;
     color: rgb(106, 105, 105);
@@ -217,21 +217,10 @@ h3 {
     font-weight: bold;
 }
 
+@media only screen and (max-width:428px){
 
-.test{
-    height:10vh;
-    background-color: blue;
-
-}
-
-@media only screen and (max-width: 428px){
 .colorbox{
-   height:0vh;
-   width:0vw;
-}
-
-body{
-    background-color: black;
+    background-color: aqua;
 }
 
 }
